@@ -16,17 +16,19 @@ class About extends StatelessWidget {
     return  Scaffold(
 
       appBar: AppBar(title: Text("About us "),backgroundColor: Colors.blue,),
-      body:  ListView(
-        children: [
-         Image.asset("images/flutters.png"),
-          Image.asset("images/images (10).jpg"),
-          Image.asset("images/flutters.png"),
-          Image.asset("images/flutters.png"),
-          Image.asset("images/images (10).jpg"),
-          Image.asset("images/flutters.png"),
-          Image.asset("images/images (10).jpg"),
+      body:  Container(
+        height: 300,
+        child: PageView(
+          controller: PageController(initialPage: 1),
+          scrollDirection: Axis.horizontal,
+          children: [
+           Image.asset("images/shoes.jpeg",fit: BoxFit.cover,),
+            Image.asset("images/images (10).jpg",fit: BoxFit.cover,),
+            Image.asset("images/flutters.png",fit: BoxFit.cover,),
 
-        ],
+
+          ],
+        ),
       ),
     );
   }

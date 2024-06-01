@@ -7,6 +7,7 @@ import 'package:temoprary/About.dart';
 import 'package:temoprary/homepage.dart';
 
 import 'contact.dart';
+import 'details.dart';
 
 void main() {
   runApp(const MyApp());

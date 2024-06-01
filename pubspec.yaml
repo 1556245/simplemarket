@@ -62,6 +62,13 @@ flutter:
   assets:
      - images/flutters.png
      - images/images (10).jpg
+     - images/headphone.jpg
+     - images/watch.jpg
+     - images/head.webp
+     - images/head.jpg
+     - images/noback.jpg
+     - images/transparent.jpg
+     - images/shoes.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
